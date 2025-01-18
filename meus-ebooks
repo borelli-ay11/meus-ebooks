@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus eBooks na Kiwify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #28a745;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #218838;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .ebook {
+            margin: 2rem auto;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #fff;
+            max-width: 600px;
+        }
+        .ebook h3 {
+            color: #28a745;
+        }
+        .ebook p {
+            margin: 0.5rem 0;
+        }
+        .ebook a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .ebook a:hover {
+            background: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #28a745;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Descubra Meus eBooks na Kiwify</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#ebooks">Meus eBooks</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo!</h2>
+            <p>Explore uma coleção exclusiva de eBooks que vão transformar a sua forma de aprender e crescer. Disponíveis na plataforma Kiwify!</p>
+        </section>
+        <section id="ebooks">
+            <h2>Meus eBooks</h2>
+            <div class="ebook">
+                <h3>eBook 1: Como Alcançar Seus Objetivos</h3>
+                <p>Descubra estratégias comprovadas para definir e alcançar suas metas de forma eficiente.</p>
+                <a href="#">Comprar Agora</a>
+            </div>
+            <div class="ebook">
+                <h3>eBook 2: Técnicas de Produtividade</h3>
+                <p>Aumente sua produtividade com técnicas simples e eficazes que você pode aplicar hoje mesmo.</p>
+                <a href="#">Comprar Agora</a>
+            </div>
+            <div class="ebook">
+                <h3>eBook 3: Mindset para o Sucesso</h3>
+                <p>Transforme sua mentalidade e desbloqueie seu verdadeiro potencial com este guia essencial.</p>
+                <a href="#">Comprar Agora</a>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Tem dúvidas ou precisa de ajuda? Entre em contato comigo pelo e-mail: <a href=\"mailto:lucas.silva@pauliceia.net\">lucas.silva@pauliceia.net<\/a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Meus eBooks. Todos os direitos reservados. Disponível na <a href="https://www.kiwify.com" style="color: #fff; text-decoration: underline;">Kiwify</a>.</p>
+    </footer>
+</body>
+</html>
